@@ -5,3 +5,11 @@ function getComputerChoice() {
         return "paper";
     else return "scissors"; 
 }
+
+function getHumanChoice() {
+    let choice = prompt("Enter rock, paper, or scissors:");
+    return choice.toLowerCase();
+}
+
+let humanScore = 0;
+let computerScore = 0;
